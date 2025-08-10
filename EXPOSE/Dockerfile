@@ -1,5 +1,5 @@
 
-FROM joindevops/run:v1
+FROM nanda777/run:v1
 #FROM run:v1
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
