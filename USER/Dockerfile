@@ -1,8 +1,8 @@
 FROM almalinux:9
 #CMD ["ping","google.com"]
 RUN dnf install git -y
-RUN useradd sivakumar
+RUN useradd nandakumar
 
-USER sivakumar
+USER nandakumar
 CMD ["google.com"]
 ENTRYPOINT ["ping"]
