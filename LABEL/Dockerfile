@@ -2,3 +2,4 @@ FROM almalinux:9
 LABEL course="devops"\
       duration="120hrs"\
       trainer="sivakumar"\
+      com.nandakumar.dockerfile.author="nanda@example.com"
